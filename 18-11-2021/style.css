@@ -1,0 +1,27 @@
+.flex-container {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+
+      height: 60px;
+  }
+  .flex-items{
+      background-color: white;
+      border-style: solid;
+      border-color:black;
+      border-width: 1px;
+
+      width: 70px;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      align-content: space-around;
+
+  }
