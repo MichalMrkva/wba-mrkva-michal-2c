@@ -1,0 +1,113 @@
+body {
+    background-image: url("Cosmic-gradient-14.jpg");
+    background-size: 100%, 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a{
+    color: white;
+    text-decoration:none;
+    font-size: 1.1rem;  
+}
+.container{
+    background-color: rgba(38, 32, 62, 0.8);
+    position: static;
+    font-size: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    height: 12%;
+    width: 100%;
+}
+.heading{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: normal;
+    width: 100%;
+}
+.bar{
+    
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: normal;
+}
+.bar #logo{
+
+    height: 100%;
+    width: 25%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.bar #menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    gap: 30px;
+    width: 50%;
+}
+
+.bar #search{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-end;
+    width: 25%;
+}
+.textbox{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: white;
+    margin-left: 25%;
+    margin-top: 30vh;
+    width: 50%;
+    height: 30%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    
+}
+.title{
+    font-size: 2rem;
+    display: block;
+    flex-basis: auto;
+    align-self: left;
+    flex-grow: 0;
+    flex-shrink: 1;
+    order: 0;
+    padding: 2rem;
+}
+.text{
+    font-size: 1rem;
+    display: block;
+    flex-basis: auto;
+    align-self: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+    order: 0;
+    padding: 0rem 2rem 2rem 2rem;
+}
