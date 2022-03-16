@@ -1,0 +1,182 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    background: $background-color;
+    align-items: center;
+}
+.textbox{
+    color: $text-color;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: $textbox-color;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+.title{
+    display: block;
+    flex-basis: auto;
+    align-self: left;
+    flex-grow: 0;
+    flex-shrink: 1;
+    order: 0;
+    padding: 1rem;
+}
+.text{
+    font-size: $font-size;
+    display: block;
+    flex-basis: auto;
+    align-self: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+    order: 0;
+    padding: 0rem 1rem 1rem 1rem;
+}
+.button{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width:100px;
+    height: 50px;
+    background-color: #F8F7EC;
+    
+}
+
+.grid-container {
+  width: 70%;
+    margin: 0 auto;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+.images{
+    width: 50px;
+}
+.images{
+    display: none;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+.h333{
+    text-align: center;
+    font-size: 0.8rem;
+  }
+.grid-item {
+    font-size: 0.7rem;
+    padding-right: 5px;
+}
+.button2{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width:100px;
+    height: 50px;
+    background-color: $textbox-color;
+    margin: 30px;
+    
+}
+.H2
+{
+    font-size: 1rem;
+    margin: 20px;
+}
+@media screen and (min-width: 768px) {
+    .images{
+        display: flex;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    .grid-container {
+        width: 70%;
+    }
+    .grid {
+        display: grid;
+        margin: auto;
+        gap: 50px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .h333{
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    .grid-item {
+        width: 100%;
+        font-size: 1.2rem;
+        
+    }
+    .second-part
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 150px;
+    }
+    h5{
+        font-size: 1.5rem;
+    }
+    
+    .first-part{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: flex-end;
+        width: 100%;
+        height: 919px;
+        background-image: url(../images/heroimage.svg);
+        background-size: 100%;
+    }
+    .H2
+    {
+        margin: 90px;
+    }
+    .textbox{
+        padding: 0rem 2rem 2rem 2rem;
+        height: 350px;
+        width: 650px;
+        background: rgba(124, 116, 116, .3);
+    }
+    .title{
+        height: 0hv;
+        padding: 2rem;
+    }
+    .button
+    {
+        font-size: 1.3rem;
+        width: 180px;
+        background-color: $textbox-color;
+    }
+    .button2{
+        
+        margin: 30px;
+        font-size: 1.3rem;
+        width: 180px;
+        background-color: $textbox-color;
+    }
+
+}

@@ -1,0 +1,93 @@
+.all{
+    height: calc(100Vh - 105px - 15vh);
+    background-color: $background-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .content{
+        height: 462px;
+        width:310px ;
+        
+    }
+    .kontakt{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .grid{
+        display: grid;
+        margin-top:38px ;
+        gap: 17px;
+    }
+    .form{
+        background-color: rgba(124,116,116,0.3);
+        border: 0;
+        height: 30px;
+        font-size: 0.6875rem; 
+    
+    }
+    .textarea{
+        background-color: rgba(124,116,116,0.3);
+        font-size: 0.6875rem; 
+        height: 144px;
+        border: 0;
+        resize: none;
+    }
+    ::placeholder{
+        color:black;
+        font-size: 0.6875rem;
+        font-weight: 500;}
+    
+    .btn{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .button{
+        color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width:100px;
+        height: 50px;
+        background-color: $textbox-color;
+        margin: 30px;
+        
+    }
+    @media screen and (min-width: 768px) {
+    .all{
+    height: calc(100vh - 88px - 15VH);
+    
+    
+    }
+    .kontakt{
+    margin-bottom: 150px;
+    font-weight: 700;
+    font-size:3rem ;
+    letter-spacing: 5px;
+    }
+    .content{
+        width: 780px;
+    }
+    .grid{
+    grid-template-columns: 1fr 1fr;
+    }
+    .textarea{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .button{
+        
+        margin: 30px;
+        font-size: 1.3rem;
+        width: 180px;
+        background-color: $textbox-color;
+    }
+
+    
+    }
