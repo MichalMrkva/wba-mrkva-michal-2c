@@ -1,0 +1,139 @@
+@import "reset";
+@import "global";
+@import "header";
+@import "footer";
+.all{
+    height: Calc(20vh + 80vh );
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.col-12{
+    background-color: $textbox-color;
+    display: flex;
+    margin-top: 20px;
+    height: auto;
+    box-shadow: 4px 4px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    width: auto;
+    width: 88%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    gap:10px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: $navbar-color;
+    font-size: 1.5rem;
+    width: 80%;
+    height: 10%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: $navbar-color;
+    width: 80%;
+    height: 40vh;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button{
+    background-color: $navbar-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    height: 10%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 10%;
+}
+@media screen and (min-width: 768px) {
+    .all{
+        height: Calc(100vh - 13.4vh - 12vh);
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .col-12{
+        display: flex;
+        margin-top: 20px;
+        height: 60vh;
+        box-shadow: 4px 4px 0px 2px rgba(0, 0, 0, 0.25);
+        width: 90%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .head{
+        height: 6vh;
+    }
+    .textbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        background-color: $navbar-color;
+        width: 80%;
+        height: 30vh;
+        margin: 20px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .button{
+        width: 40%;
+        height: 5vh;
+    }
+    .img{
+        padding-left: 90px;
+        width: auto;
+        height: auto;
+    }
+}

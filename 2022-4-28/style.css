@@ -1,0 +1,7 @@
+.textbox{
+    display: none;
+    flex-direction: column;
+    padding: 50px;
+    border-style:solid;
+    border-color: brown;
+}

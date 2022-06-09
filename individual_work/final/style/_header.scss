@@ -1,0 +1,122 @@
+a{
+    color: black;
+    text-decoration:none;
+    font-size: 1rem;
+}
+.headercontainer{
+    background-color: $header-footer-color;
+    position: static;
+    font-size: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 9vh;
+    width: 100%;
+}
+.heading{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+    width: 100%;
+
+}
+.bar{
+    
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: normal;
+    gap:10px;
+}
+.logo{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    display: show;
+}
+.notnow{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+    width:  70px;
+    height: 35px;
+    background-color: $navbar-color;
+}
+.now{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+    width:  70px;
+    height: 35px;
+    background-color: $navbar-current-positon;
+}
+.navbar{
+    gap: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    width: auto;
+}
+@media screen and (min-width: 768px) {
+    .headercontainer{
+        height: 13.4vh;
+    }
+    .navbar{
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 50%;
+    }
+    
+    .notnow{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: normal;
+        width:200px;
+        height: 50px;
+        background-color: $navbar-color;
+    }
+    .now{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: normal;
+        width:200px;
+        height: 50px;
+        background-color: $navbar-current-positon;
+    }
+    .bar{
+        gap: 40vh;
+    }
+  }
+  

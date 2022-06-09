@@ -1,0 +1,101 @@
+@import "reset";
+@import "global";
+@import "header";
+@import "footer";
+.all{
+    height: Calc(40vh - 9vh - 12vh + 45vh + 45vh + 45vh + 6vh);
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    
+}
+.container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.col-12{
+    background-color: $textbox-color;
+    display: flex;
+    margin-top: 20px;
+    height: 45vh;
+    box-shadow: 4px 4px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.head{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 1.4REm;
+    background-color: $textbox-color;
+    display: flex;
+    height: 6vh;
+    box-shadow: 4px 4px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    margin-bottom: 3VH;
+    width: 90%;
+}
+.textbox{
+    background-color: $navbar-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 15px;
+    width: 70%;
+    height: 25%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button{
+    background-color: $navbar-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 70%;
+    height: 10%;
+    margin-top: 5%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media screen and (min-width: 768px) {
+
+    .all{
+        height: Calc(100vh - 13.4vh - 12vh);
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .col-12{
+        width: 25%;
+    }
+    .head{
+        background-color: $textbox-color;
+        display: flex;
+        height: 7vh;
+        width: 70%;
+        box-shadow: 4px 4px 0px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 33px;
+        
+    }
+}
